@@ -19,7 +19,12 @@ namespace SRP
         }
 
         public void ShelveBook(String sector, String shelve)
+            /*deberia ser una clase aparte por si cambia el metodo de almacenamiento de libros, sea más facil de modificar,
+            ej: la biblioteca se expande y ya no solo se necesita 1 sector y 1 estante, sino que hay libros almacenados en central y otros en mulling,
+            y se necesita identificar con una "c" o una "m"
+        */
         {
+            //this.LibraryBuilding ...
             this.LibrarySector = sector;
             this.LibraryShelve = shelve;
         }
